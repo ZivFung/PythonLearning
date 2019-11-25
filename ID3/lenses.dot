@@ -1,0 +1,27 @@
+digraph decision_tree {
+    "f591f9a1-2d23-4610-bb71-c3bbecccbe89" [label="纹理"];
+    "fbe3cd02-6e95-45b5-80b6-99dc3ccbac58" [label="否"];
+    "46d31f87-73bf-4480-b34f-e3e4c9a7216c" [label="根蒂"];
+    "6150e6b8-bd96-4008-9c8e-86c8238a1707" [label="否"];
+    "33971432-5a3b-4278-9cfc-c745542e8ee5" [label="是"];
+    "7174522d-d28f-4d2b-a322-23f8ee73b7b6" [label="色泽"];
+    "3232af4b-e3de-48db-9413-a33197ec7310" [label="是"];
+    "0e8eaea8-5efc-40e7-8a1a-c689d9b2b296" [label="触感"];
+    "63d88cc6-a2e1-4019-b8e9-91022e06644a" [label="是"];
+    "9e6e2af6-626e-48c3-b55e-3da0fa63f5dd" [label="否"];
+    "1186b6d7-7db7-4334-8d75-35854617e3f5" [label="触感"];
+    "9321cda6-da8c-495a-b7e8-92a8b35da8f1" [label="否"];
+    "2cff9263-be31-4ca8-bea1-33692dcfe4cd" [label="是"];
+    "f591f9a1-2d23-4610-bb71-c3bbecccbe89" -> "fbe3cd02-6e95-45b5-80b6-99dc3ccbac58" [label="模糊"];
+    "f591f9a1-2d23-4610-bb71-c3bbecccbe89" -> "46d31f87-73bf-4480-b34f-e3e4c9a7216c" [label="清晰"];
+    "46d31f87-73bf-4480-b34f-e3e4c9a7216c" -> "6150e6b8-bd96-4008-9c8e-86c8238a1707" [label="硬挺"];
+    "46d31f87-73bf-4480-b34f-e3e4c9a7216c" -> "33971432-5a3b-4278-9cfc-c745542e8ee5" [label="蜷缩"];
+    "46d31f87-73bf-4480-b34f-e3e4c9a7216c" -> "7174522d-d28f-4d2b-a322-23f8ee73b7b6" [label="稍蜷"];
+    "7174522d-d28f-4d2b-a322-23f8ee73b7b6" -> "3232af4b-e3de-48db-9413-a33197ec7310" [label="青绿"];
+    "7174522d-d28f-4d2b-a322-23f8ee73b7b6" -> "0e8eaea8-5efc-40e7-8a1a-c689d9b2b296" [label="乌黑"];
+    "0e8eaea8-5efc-40e7-8a1a-c689d9b2b296" -> "63d88cc6-a2e1-4019-b8e9-91022e06644a" [label="硬滑"];
+    "0e8eaea8-5efc-40e7-8a1a-c689d9b2b296" -> "9e6e2af6-626e-48c3-b55e-3da0fa63f5dd" [label="软粘"];
+    "f591f9a1-2d23-4610-bb71-c3bbecccbe89" -> "1186b6d7-7db7-4334-8d75-35854617e3f5" [label="稍糊"];
+    "1186b6d7-7db7-4334-8d75-35854617e3f5" -> "9321cda6-da8c-495a-b7e8-92a8b35da8f1" [label="硬滑"];
+    "1186b6d7-7db7-4334-8d75-35854617e3f5" -> "2cff9263-be31-4ca8-bea1-33692dcfe4cd" [label="软粘"];
+}
